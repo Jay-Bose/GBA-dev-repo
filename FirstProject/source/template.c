@@ -13,7 +13,6 @@
 int main(void) {
 //---------------------------------------------------------------------------------
 
-
 	// the vblank interrupt must be enabled for VBlankIntrWait() to work
 	// since the default dispatcher handles the bios flags no vblank handler
 	// is required
@@ -24,7 +23,7 @@ int main(void) {
 
 	// ansi escape sequence to set print co-ordinates
 	// /x1b[line;columnH
-	iprintf("\x1b[10;10HHello World!\n");
+	iprintf("\x1b[20;3HDeez Nuts!\n");
 
 	while (1) {
 		VBlankIntrWait();
