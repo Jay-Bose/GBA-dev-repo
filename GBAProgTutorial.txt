@@ -1,0 +1,7 @@
+TUTORIAL: https://gbadev.net/tonc/first.html
+
+05/01/25
+	- left off midway through section 3
+05/04/25
+	- Section 5. The Bitmap Modes
+		- Understanding Data
