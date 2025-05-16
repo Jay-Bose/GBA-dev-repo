@@ -8,14 +8,18 @@ mayba a moving sprite.
 */
 
 #include <stdio.h>
+#include <gba_base.h>
+#include <gba_video.h>
+#include <gba_types.h>
 
 
 /* Display a color on the screen using tile mode */
 
-
 int main() {
     
-    // test for git push
+    // set display mode and background mode
+    REG_DISPCNT = MODE_0;
+    REG_BG0CNT = BG_16_COLOR | BG_SIZE_0;
 
     return 0;
 }
