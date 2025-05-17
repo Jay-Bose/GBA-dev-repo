@@ -21,5 +21,9 @@ int main() {
     REG_DISPCNT = MODE_0;
     REG_BG0CNT = BG_16_COLOR | BG_SIZE_0;
 
+    while(1) {
+        vid_sync();
+    }
+
     return 0;
 }
