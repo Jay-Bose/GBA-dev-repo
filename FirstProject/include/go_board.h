@@ -14,7 +14,7 @@
 
 typedef struct {
     u16 * stone_type;
-    // possible other sattelite data
+    // possible other satellite data
 } Stone;
 
 typedef struct {

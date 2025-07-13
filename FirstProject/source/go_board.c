@@ -1,7 +1,8 @@
 // screenColor.c
 
 /* 
-    First create a tic tac toe board using the sprite layer for the Xs and Os*/
+    GOAL: display a simple go board on screen
+*/
 
 #include <stdio.h>
 #include <gba_base.h>

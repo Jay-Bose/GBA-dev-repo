@@ -6,7 +6,9 @@
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/FirstProject/source",
                 "/opt/devkitpro/libgba/include",
-                "/opt/devkitpro/libtonc/include"
+                "/opt/devkitpro/libtonc/include",
+                "C:/devkitPro/libgba/include",
+                "C:/devkitPro/libtonc/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
