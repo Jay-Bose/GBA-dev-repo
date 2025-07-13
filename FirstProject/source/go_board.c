@@ -16,14 +16,14 @@ Go_Game_State go_game;
 
 
 void init_go_game() {
-    // counter for looping through game board array
-    u16 i, j;
-    i = j = 0;
+    
+    u16 rows, columns;
+    rows = columns = 0;
 
     // initialize all game positions to empty
-    for(; i < GO_BRD_9X9; ++i) {
-        for(; j < GO_BRD_9X9; ++j) {
-            *(go_game.go_board[i][j]->stone_type) = EMPTY_STONE;
+    for(; rows < GO_BRD_9X9; ++rows) {
+        for(; columns < GO_BRD_9X9; ++columns) {
+            *(go_game.go_board[rows][columns]->stone_type) = EMPTY_STONE;
         }
     }
     
