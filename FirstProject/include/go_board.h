@@ -8,9 +8,9 @@
 #define GO_BRD_19X19 19
 
 // typedef black and white
-#define EMPTY_STONE 0
-#define BLACK_STONE 1
-#define WHITE_STONE 2
+#define EMPTY_STONE 0x00
+#define BLACK_STONE 0x01
+#define WHITE_STONE 0x10
 
 typedef struct {
     u16 * stone_type;
