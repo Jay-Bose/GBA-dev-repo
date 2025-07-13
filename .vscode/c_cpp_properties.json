@@ -4,6 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
+                "${workspaceFolder}/FirstProject/source",
                 "/opt/devkitpro/libgba/include",
                 "/opt/devkitpro/libtonc/include"
             ],
