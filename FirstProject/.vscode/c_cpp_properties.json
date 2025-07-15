@@ -1,4 +1,4 @@
-{
+/*{
     "configurations": [
         {
             "name": "Linux",
@@ -13,6 +13,30 @@
             "cStandard": "c17",
             "cppStandard": "gnu++17",
             "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}*/
+
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Dev/GBA-dev/GBA-dev-repo/FirstProject/include",
+                "C:/devkitPro/libgba/include",
+                "C:/devkitPro/libtonc/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.26100.0",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
         }
     ],
     "version": 4

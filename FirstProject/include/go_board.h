@@ -1,7 +1,5 @@
 // go_board.h
 
-#include <gba_types.h>
-
 // Defines for board size
 #define GO_BOARD_9X9 9
 #define GO_BOARD_13X13 13
